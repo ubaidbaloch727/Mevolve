@@ -1,0 +1,150 @@
+.navbar {
+    padding: 0px 150px;
+    height: 80px;
+    text-align: center;
+}
+
+.navbar li{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-top: solid white 4px;
+    font-weight: 500;
+    padding: 0px 15px;
+}
+
+.navbar li a{
+    color: black;
+}
+
+.navbar li:hover{
+    border-top: solid black 4px;
+}
+
+.home{
+    background-color: #82D2C5;
+    height: 100%;
+    position: relative;
+    margin-top: 80px;
+}
+#hero-email-input{
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 18px;
+    color: #D3D3D3;
+    font-weight: 400;
+}
+
+#hero-email-button{
+    border: none;
+}
+
+.input-group-append{
+    background: #28A48F;
+    border-radius: 0px 5px 5px 0px;
+}
+.content{
+    padding: 70px 0px;
+}
+
+.slogan-font {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 44px;
+}
+
+.email-line{
+    color: black; 
+    font-size: 18px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.conatainer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.left-cards{
+    border-radius: 15px 15px 0px 15px;
+    width: 15rem;
+}
+
+.hero-card{
+    position: relative;
+    z-index: 1;
+}
+
+.right-cards{
+    border-radius: 15px 15px 15px 0px;
+    width: 15rem;
+}
+.phone-image{
+    width: 327px;
+    height: 640px;
+    margin-bottom: -59px;
+}
+
+.feature-icons{
+    padding: 80px 100px;
+    background-color: #DCF5F1;
+}
+.icon-group{
+    text-align: center;
+}
+.icon-name{
+    margin: 20px 0px;
+}
+
+.features-slider{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.accordion-item{
+    border: none;
+    color: black;
+    width: 34rem;
+    background-color: #E5FBF7;
+    margin-top: 20px;
+}
+.accordion-button::after {
+    display: none;
+  }
+
+.slide{
+    transition: left 0.5s ease;
+}
+
+.slide.active {
+    left: 0;
+    border: solid 2px green;
+}
+
+.slide.inactive {
+    left: -100%;
+    border: solid 2px red;
+}
+
+.card-icon{
+    position: absolute;
+    top: 22;
+}
+
+.card-details{
+    margin: 0px 40px;
+}
+
+.card-icon, .card-details{
+    display: inline-block;
+}
+.contact{
+    background-color: #E5FBF7;
+}
+
+.footer{
+    background-color: #4E5464;
+    min-height: 50vh;
+    color: white;
+}
