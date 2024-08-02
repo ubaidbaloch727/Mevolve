@@ -107,11 +107,24 @@
     color: black;
     width: 34rem;
     background-color: #E5FBF7;
-    margin-top: 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.card-icon{
+    margin-right: 10px;
+    top: 22;
+}
+.accordion-button {
+    border: none !important;
+    outline: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    padding: 1rem 1rem !important;
 }
 .accordion-button::after {
     display: none;
-  }
+}
 
 .slide{
     transition: left 0.5s ease;
@@ -127,17 +140,9 @@
     border: solid 2px red;
 }
 
-.card-icon{
-    position: absolute;
-    top: 22;
-}
 
 .card-details{
     margin: 0px 40px;
-}
-
-.card-icon, .card-details{
-    display: inline-block;
 }
 .contact{
     background-color: #E5FBF7;
