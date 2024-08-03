@@ -109,41 +109,54 @@
     background-color: #E5FBF7;
     margin-top: 15px;
     border: none;
-    border-radius: 10px;
 }
 .card-icon{
     margin-right: 10px;
     top: 22;
 }
 .accordion-button {
-    border: none !important;
-    outline: none !important;
+    border: none;
+    outline: none;
     background: none !important;
     box-shadow: none !important;
-    padding: 1rem 1rem !important;
+    padding: 1.5rem 1rem;
 }
 .accordion-button::after {
     display: none;
 }
-
-.slide{
-    transition: left 0.5s ease;
+.security-section {
+    background-color: #E5FBF7;
+    padding: 50px 0;
+    text-align: center;
+    border: 1px solid red;
+}
+.security-icon {
+    margin-bottom: 10px;
+    color: #2CA58D;
+}
+.securitys-icon{
+    margin-bottom: 56px;
+}
+.sec-header{
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 80px;
 }
 
-.slide.active {
-    left: 0;
-    border: solid 2px green;
+.habittracker-image{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
 }
 
-.slide.inactive {
-    left: -100%;
-    border: solid 2px red;
+.addone-section {
+    align-items: center;
+    padding: 50px 0;
+}
+.addon-slogan{
+    width: 50%;
 }
 
-
-.card-details{
-    margin: 0px 40px;
-}
 .contact{
     background-color: #E5FBF7;
 }
