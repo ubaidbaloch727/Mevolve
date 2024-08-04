@@ -26,6 +26,7 @@
     height: 100%;
     position: relative;
     margin-top: 80px;
+    border: 1px solid red;
 }
 #hero-email-input{
     padding: 15px;
@@ -128,7 +129,6 @@
     background-color: #E5FBF7;
     padding: 50px 0;
     text-align: center;
-    border: 1px solid red;
 }
 .security-icon {
     margin-bottom: 10px;
@@ -156,6 +156,74 @@
 .addon-slogan{
     width: 50%;
 }
+
+.philosophy-section {
+    background-color: #e6f7f7;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  .hexagon {
+    display: inline-block;
+    width: 13rem;
+    height: 13rem;
+    background-color: #E8E6E6;
+    border-radius: 20px;
+    margin: 20px;
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hexagon p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .additional-feature-header{
+    font-size: 3rem;
+    margin-bottom: 80px;
+  }
+  .additional-features-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .additional-feature-icon {
+    font-size: 2.5rem;
+    color: #20c997;
+  }
+  .additional-feature-title {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .additional-feature-description {
+    text-align: left;
+    color: #666;
+    margin-bottom: 50px;
+  }
+
+  .customer-first-section {
+    background-color: #e6f7f7;
+    text-align: center;
+    padding: 50px 0;
+  }
+  .feature-icon {
+    font-size: 2.5rem;
+    color: #20c997;
+  }
+  .feature-title {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  .feature-description {
+    color: #666;
+  }
 
 .contact{
     background-color: #E5FBF7;
