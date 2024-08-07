@@ -26,7 +26,6 @@
     height: 100%;
     position: relative;
     margin-top: 80px;
-    border: 1px solid red;
 }
 #hero-email-input{
     padding: 15px;
@@ -225,8 +224,78 @@
     color: #666;
   }
 
-.contact{
-    background-color: #E5FBF7;
+  .Customer-header{
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 50px;
+  }
+
+  .pricing-table {
+    padding: 30px;
+}
+.Pricing-header{
+    font-size: 3rem;
+    color: black;
+}
+.pricing-table th, .pricing-table td {
+    text-align: center;
+    vertical-align: middle;
+    background: #E5FBF7;
+}
+.feature-check, .feature-cross {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    color: gray;
+}
+.feature-check {
+    background-color: #28A48F;
+}
+
+.table tbody tr td {
+    width: 10rem;
+    background: #E5FBF7;
+}
+
+.contact-section{
+    background: #E5FBF7;
+}
+.contact-form {
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+.contact-form h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.contact-form p {
+    margin-bottom: 30px;
+    color: #666666;
+}
+.form-control{
+    padding: 15px;
+}
+.form-control::before{
+    background: lightgray;
+    transition: calc(0.5s);
+}
+.contact-form .form-control {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-form button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+.Submit-button{
+    background: #28A48F;
 }
 
 .footer{
