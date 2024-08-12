@@ -110,6 +110,10 @@
     margin-top: 15px;
     border: none;
 }
+.accordion-item:hover{
+    background-color: #9FDED4;
+    color: black;
+}
 .card-icon{
     margin-right: 10px;
     top: 22;
@@ -121,8 +125,14 @@
     box-shadow: none !important;
     padding: 1.5rem 1rem;
 }
+.accordion-button:hover{
+    color: #000000;
+}
 .accordion-button::after {
     display: none;
+}
+.accordion-body{
+    margin-left: 40px;
 }
 .security-section {
     background-color: #E5FBF7;
@@ -232,15 +242,35 @@
 
   .pricing-table {
     padding: 30px;
+    width: 60%;
+    margin: 0 auto;
 }
 .Pricing-header{
     font-size: 3rem;
     color: black;
 }
 .pricing-table th, .pricing-table td {
+    border-color: #20c997;
     text-align: center;
     vertical-align: middle;
     background: #E5FBF7;
+}
+.pricing-table th{
+    font-size: 18px !important;
+    padding: 15px;
+}
+.pricing table .table-footer td{
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 1px solid #20c997;
+}
+.pricing-table th, td{
+    border-top: 1px solid #20c997;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.pricing-table tr {
+    border: none;
 }
 .feature-check, .feature-cross {
     display: inline-block;
@@ -271,6 +301,7 @@
 }
 .contact-form h1 {
     font-size: 3rem;
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
 .contact-form p {
@@ -278,12 +309,15 @@
     color: #666666;
 }
 .form-control{
+    outline: none;
+    box-shadow: none !important;
     padding: 15px;
 }
-.form-control::before{
-    background: lightgray;
-    transition: calc(0.5s);
+.form-control:hover{
+    background: none;
+    transition: calc(1s);
 }
+
 .contact-form .form-control {
     border-radius: 10px;
     margin-bottom: 20px;
@@ -298,8 +332,42 @@
     background: #28A48F;
 }
 
-.footer{
+.sbm-btn:hover{
+    background-color: #000000;
+    transition: calc(1s);
+}
+.footer {
     background-color: #4E5464;
-    min-height: 50vh;
     color: white;
+    padding: 20px 0;
+}
+.footer .footer-links {
+    font-size: 20px;
+}
+.footer .footer-links a {
+    color: white;
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer .social-icons a {
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #22252D;
+    text-align: center;
+}
+.footer .social-icons a:hover {
+    transform: scale(1.2);
+    transform-origin: 100% -30%;
+    background: #22252D;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    font-size: 35px;
 }
