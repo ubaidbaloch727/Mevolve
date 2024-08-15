@@ -19,7 +19,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
     <title>MEvolve</title>
   </head>
@@ -64,7 +64,7 @@
         </div>
       </div>
     </nav>
-    <div class="home section" id="home">
+    <div class="home section border" id="home">
       <div class="container">
         <div class="hero-item-1 text-center pt-5">
           <h1 class="slogan mb-5 slogan-font" style="font-size: 44px">
@@ -83,7 +83,7 @@
               aria-label="Your Email"
               aria-describedby="basic-addon2"
             />
-            <div class="input-group-append">
+            <div class="input-group-append" id="button-grp">
               <button
                 class="btn btn-outline-secondary text-white px-5 h-100"
                 id="hero-email-button"
@@ -98,7 +98,7 @@
           </p>
         </div>
         <div class="row hero-card">
-          <div class="col-md-4">
+          <div class="col-md-4 item-1">
             <!-- Phone Cards -->
             <div class="conatainer-card">
               <div class="left-cards p-4 mt-5 bg-white text-center">
@@ -115,7 +115,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 item-2">
             <!-- Phone Image -->
             <img
               class="phone-image mt-1 mx-auto d-block"
@@ -123,7 +123,7 @@
               alt="#"
             />
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 item-3">
             <!-- Phone Cards -->
             <div class="conatainer-cards">
               <div class="right-cards p-4 mt-5 bg-white text-center">
@@ -144,248 +144,250 @@
       </div>
     </div>
     <div class="features section border" id="features">
-      <div class="row feature-icons">
-        <div class="col-md-2 col-sm-4 icon-group">
-          <svg
-            preserveAspectRatio="xMidYMid meet"
-            data-bbox="7.965 7 34 34"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 50 48"
-            height="48"
-            width="50"
-            data-type="ugc"
-            role="presentation"
-            aria-hidden="true"
-            aria-label=""
-          >
-            <g>
-              <path
-                stroke-linecap="round"
-                stroke-width="4"
-                stroke="#28A48F"
-                d="M41.724 21.149A17 17 0 1 1 30.875 8.06"
-                fill="none"
-              ></path>
-              <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="4"
-                stroke="#28A48F"
-                d="m15.965 23.5 6.5 6.5 19-19"
-                fill="none"
-              ></path>
-            </g>
-          </svg>
-          <h5 class="icon-name">Todo</h5>
-        </div>
-        <div class="col-md-2 col-sm-4 icon-group">
-          <svg
-            preserveAspectRatio="xMidYMid meet"
-            data-bbox="6.852 4.874 34.3 38.253"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="6.852 4.874 34.3 38.253"
-            height="48"
-            width="42"
-            data-type="color"
-            role="presentation"
-            aria-hidden="true"
-            aria-label=""
-          >
-            <g>
-              <path
-                fill="#28A48F"
-                d="m13.702 38.001 1.7 1.7c.4.4.591.867.575 1.4a2.11 2.11 0 0 1-.575 1.4c-.4.4-.875.608-1.425.625a1.861 1.861 0 0 1-1.425-.575l-5.15-5.15c-.2-.2-.342-.417-.425-.65a2.213 2.213 0 0 1-.125-.75c0-.267.041-.517.125-.75.083-.233.225-.45.425-.65l5.15-5.15c.4-.4.875-.592 1.425-.575a2.04 2.04 0 0 1 1.425.625c.366.4.558.867.575 1.4.016.533-.175 1-.575 1.4l-1.7 1.7h20.3v-6c0-.567.191-1.042.575-1.425.383-.383.858-.575 1.425-.575.566 0 1.041.192 1.425.575.383.383.575.858.575 1.425v6c0 1.1-.392 2.042-1.175 2.825-.784.783-1.725 1.175-2.825 1.175h-20.3Zm20.6-24h-20.3v6c0 .567-.192 1.042-.575 1.425-.384.383-.859.575-1.425.575-.567 0-1.042-.192-1.425-.575-.384-.383-.575-.858-.575-1.425v-6c0-1.1.391-2.042 1.175-2.825.783-.783 1.725-1.175 2.825-1.175h20.3l-1.7-1.7c-.4-.4-.592-.867-.575-1.4.016-.533.208-1 .575-1.4.4-.4.875-.608 1.425-.625a1.861 1.861 0 0 1 1.425.575l5.15 5.15c.2.2.341.417.425.65.083.233.125.483.125.75s-.042.517-.125.75c-.084.233-.225.45-.425.65l-5.15 5.15c-.4.4-.875.592-1.425.575a2.04 2.04 0 0 1-1.425-.625 2.109 2.109 0 0 1-.575-1.4c-.017-.533.175-1 .575-1.4l1.7-1.7Z"
-                data-color="1"
-              ></path>
-            </g>
-          </svg>
-          <h5 class="icon-name">Habits</h5>
-        </div>
-        <div class="col-md-2 col-sm-4 icon-group">
-          <svg
-            preserveAspectRatio="xMidYMid meet"
-            data-bbox="3.981 9.334 40.001 29.333"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="3.981 9.334 40.001 29.333"
-            height="48"
-            width="45"
-            data-type="color"
-            role="presentation"
-            aria-hidden="true"
-            aria-label=""
-          >
-            <g>
-              <g
-                clip-path="url(#b9671940-aadd-4d1a-8f41-11755ee96c85_comp-lwsyaezx)"
-              >
+      <div class="feature-icons">
+        <div class="row">
+          <div class="col-md-2 col-sm-4 icon-group">
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              data-bbox="7.965 7 34 34"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 48"
+              height="48"
+              width="50"
+              data-type="ugc"
+              role="presentation"
+              aria-hidden="true"
+              aria-label=""
+            >
+              <g>
                 <path
-                  fill="#28A48F"
-                  d="M8.425 11.556a2.222 2.222 0 1 1-4.444 0 2.222 2.222 0 0 1 4.444 0z"
-                  data-color="1"
+                  stroke-linecap="round"
+                  stroke-width="4"
+                  stroke="#28A48F"
+                  d="M41.724 21.149A17 17 0 1 1 30.875 8.06"
+                  fill="none"
                 ></path>
                 <path
-                  fill="#28A48F"
-                  d="M43.982 11.556a2.222 2.222 0 0 1-2.222 2.222H15.093a2.222 2.222 0 1 1 0-4.444H41.76c1.227 0 2.222.995 2.222 2.222z"
-                  data-color="1"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="4"
+                  stroke="#28A48F"
+                  d="m15.965 23.5 6.5 6.5 19-19"
+                  fill="none"
                 ></path>
+              </g>
+            </svg>
+            <h5 class="icon-name">Todo</h5>
+          </div>
+          <div class="col-md-2 col-sm-4 icon-group">
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              data-bbox="6.852 4.874 34.3 38.253"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="6.852 4.874 34.3 38.253"
+              height="48"
+              width="42"
+              data-type="color"
+              role="presentation"
+              aria-hidden="true"
+              aria-label=""
+            >
+              <g>
                 <path
                   fill="#28A48F"
-                  d="M8.425 24.002a2.222 2.222 0 1 1-4.444 0 2.222 2.222 0 0 1 4.444 0z"
-                  data-color="1"
-                ></path>
-                <path
-                  fill="#28A48F"
-                  d="M43.982 24.001a2.222 2.222 0 0 1-2.222 2.222H15.093a2.222 2.222 0 1 1 0-4.444H41.76c1.227 0 2.222.995 2.222 2.222z"
-                  data-color="1"
-                ></path>
-                <path
-                  fill="#28A48F"
-                  d="M8.425 36.445a2.222 2.222 0 1 1-4.444 0 2.222 2.222 0 0 1 4.444 0z"
-                  data-color="1"
-                ></path>
-                <path
-                  fill="#28A48F"
-                  d="M43.982 36.445a2.222 2.222 0 0 1-2.222 2.222H15.093a2.222 2.222 0 1 1 0-4.444H41.76c1.227 0 2.222.995 2.222 2.222z"
+                  d="m13.702 38.001 1.7 1.7c.4.4.591.867.575 1.4a2.11 2.11 0 0 1-.575 1.4c-.4.4-.875.608-1.425.625a1.861 1.861 0 0 1-1.425-.575l-5.15-5.15c-.2-.2-.342-.417-.425-.65a2.213 2.213 0 0 1-.125-.75c0-.267.041-.517.125-.75.083-.233.225-.45.425-.65l5.15-5.15c.4-.4.875-.592 1.425-.575a2.04 2.04 0 0 1 1.425.625c.366.4.558.867.575 1.4.016.533-.175 1-.575 1.4l-1.7 1.7h20.3v-6c0-.567.191-1.042.575-1.425.383-.383.858-.575 1.425-.575.566 0 1.041.192 1.425.575.383.383.575.858.575 1.425v6c0 1.1-.392 2.042-1.175 2.825-.784.783-1.725 1.175-2.825 1.175h-20.3Zm20.6-24h-20.3v6c0 .567-.192 1.042-.575 1.425-.384.383-.859.575-1.425.575-.567 0-1.042-.192-1.425-.575-.384-.383-.575-.858-.575-1.425v-6c0-1.1.391-2.042 1.175-2.825.783-.783 1.725-1.175 2.825-1.175h20.3l-1.7-1.7c-.4-.4-.592-.867-.575-1.4.016-.533.208-1 .575-1.4.4-.4.875-.608 1.425-.625a1.861 1.861 0 0 1 1.425.575l5.15 5.15c.2.2.341.417.425.65.083.233.125.483.125.75s-.042.517-.125.75c-.084.233-.225.45-.425.65l-5.15 5.15c-.4.4-.875.592-1.425.575a2.04 2.04 0 0 1-1.425-.625 2.109 2.109 0 0 1-.575-1.4c-.017-.533.175-1 .575-1.4l1.7-1.7Z"
                   data-color="1"
                 ></path>
               </g>
-              <defs fill="none">
-                <clipPath
-                  id="b9671940-aadd-4d1a-8f41-11755ee96c85_comp-lwsyaezx"
+            </svg>
+            <h5 class="icon-name">Habits</h5>
+          </div>
+          <div class="col-md-2 col-sm-4 icon-group">
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              data-bbox="3.981 9.334 40.001 29.333"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="3.981 9.334 40.001 29.333"
+              height="48"
+              width="45"
+              data-type="color"
+              role="presentation"
+              aria-hidden="true"
+              aria-label=""
+            >
+              <g>
+                <g
+                  clip-path="url(#b9671940-aadd-4d1a-8f41-11755ee96c85_comp-lwsyaezx)"
                 >
-                  <path fill="#ffffff" d="M48 0v48H0V0h48z"></path>
-                </clipPath>
-              </defs>
-            </g>
-          </svg>
-          <h5 class="icon-name">Lists</h5>
-        </div>
-        <div class="col-md-2 col-sm-4 icon-group">
-          <svg
-            preserveAspectRatio="xMidYMid meet"
-            data-bbox="6.988 7 34 34.002"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 48 48"
-            height="48"
-            width="48"
-            data-type="ugc"
-            role="presentation"
-            aria-hidden="true"
-            aria-label=""
-          >
-            <g>
-              <path
-                stroke-linejoin="round"
-                stroke-width="3.2"
-                stroke="#28A48F"
-                d="M40.988 13.377v23.375a4.25 4.25 0 0 1-4.25 4.25h-25.5a4.25 4.25 0 0 1-4.25-4.25V13.377a4.25 4.25 0 0 1 4.25-4.25h25.5a4.25 4.25 0 0 1 4.25 4.25z"
-                fill="none"
-              ></path>
-              <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="3.2"
-                stroke="#28A48F"
-                d="M15.488 19.752h18.063"
-                fill="none"
-              ></path>
-              <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="3.2"
-                stroke="#28A48F"
-                d="M15.488 26.127h18.063"
-                fill="none"
-              ></path>
-              <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="3.2"
-                stroke="#28A48F"
-                d="M15.488 32.502h18.063"
-                fill="none"
-              ></path>
-              <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="3.2"
-                stroke="#28A48F"
-                d="M15.496 7v5.313"
-                fill="none"
-              ></path>
-              <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="3.2"
-                stroke="#28A48F"
-                d="M21.652 7v5.313"
-                fill="none"
-              ></path>
-              <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="3.2"
-                stroke="#28A48F"
-                d="M27.352 7v5.313"
-                fill="none"
-              ></path>
-              <path
-                stroke-linejoin="round"
-                stroke-linecap="round"
-                stroke-width="3.2"
-                stroke="#28A48F"
-                d="M33.023 7v5.313"
-                fill="none"
-              ></path>
-            </g>
-          </svg>
-          <h5 class="icon-name">Notes</h5>
-        </div>
-        <div class="col-md-2 col-sm-4 icon-group">
-          <svg
-            preserveAspectRatio="xMidYMid meet"
-            data-bbox="8.352 5.236 31.272 37.527"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="8.352 5.236 31.272 37.527"
-            height="48"
-            width="42"
-            data-type="color"
-            role="presentation"
-            aria-hidden="true"
-            aria-label=""
-          >
-            <g>
-              <path
-                fill="#28A48F"
-                d="M36.497 5.236H13.043a4.697 4.697 0 0 0-4.691 4.691v28.146a4.697 4.697 0 0 0 4.69 4.69h26.582v-34.4a3.13 3.13 0 0 0-3.127-3.127ZM13.043 8.364h1.563v25.018h-1.563a4.65 4.65 0 0 0-1.564.269V9.927c0-.863.702-1.563 1.564-1.563Zm0 31.272c-.862 0-1.564-.7-1.564-1.563s.702-1.564 1.564-1.564h23.454v3.127H13.043Zm23.454-17.2h-4.69a1.564 1.564 0 0 1 0-3.127h4.69v3.127Zm-4.69-6.254a4.697 4.697 0 0 0-4.692 4.69 4.697 4.697 0 0 0 4.691 4.692h4.691v7.818H17.733V8.364h18.764v7.818h-4.69Z"
-                data-color="1"
-              ></path>
-            </g>
-          </svg>
-          <h5 class="icon-name">Journals</h5>
-        </div>
-        <div class="col-md-2 col-sm-4 icon-group">
-          <svg
-            preserveAspectRatio="xMidYMid meet"
-            data-bbox="10 8 30 32.001"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="10 8 30 32.001"
-            height="48"
-            width="40"
-            data-type="color"
-            role="presentation"
-            aria-hidden="true"
-            aria-label=""
-          >
-            <g>
-              <path
-                fill="#28A48F"
-                d="M37 40a2.888 2.888 0 0 1-2.124-.876A2.888 2.888 0 0 1 34 37V11c0-.833.292-1.541.876-2.124A2.888 2.888 0 0 1 37 8a2.89 2.89 0 0 1 2.124.876c.584.583.876 1.29.876 2.124v26a2.89 2.89 0 0 1-.876 2.124A2.888 2.888 0 0 1 37 40Zm-24 0a2.996 2.996 0 0 1-2.124-.876A2.996 2.996 0 0 1 10 37v-6c0-.833.292-1.541.876-2.124A2.888 2.888 0 0 1 13 28a2.89 2.89 0 0 1 2.124.876c.584.583.876 1.29.876 2.124v6c0 .4-.075.783-.224 1.15-.15.367-.368.691-.652.974A2.996 2.996 0 0 1 13 40Zm12 0a2.888 2.888 0 0 1-2.124-.876A2.888 2.888 0 0 1 22 37V21c0-.833.292-1.541.876-2.124A2.888 2.888 0 0 1 25 18a2.89 2.89 0 0 1 2.124.876c.584.583.876 1.29.876 2.124v16a2.89 2.89 0 0 1-.876 2.124A2.888 2.888 0 0 1 25 40Z"
-                data-color="1"
-              ></path>
-            </g>
-          </svg>
-          <h5 class="icon-name">Insights</h5>
+                  <path
+                    fill="#28A48F"
+                    d="M8.425 11.556a2.222 2.222 0 1 1-4.444 0 2.222 2.222 0 0 1 4.444 0z"
+                    data-color="1"
+                  ></path>
+                  <path
+                    fill="#28A48F"
+                    d="M43.982 11.556a2.222 2.222 0 0 1-2.222 2.222H15.093a2.222 2.222 0 1 1 0-4.444H41.76c1.227 0 2.222.995 2.222 2.222z"
+                    data-color="1"
+                  ></path>
+                  <path
+                    fill="#28A48F"
+                    d="M8.425 24.002a2.222 2.222 0 1 1-4.444 0 2.222 2.222 0 0 1 4.444 0z"
+                    data-color="1"
+                  ></path>
+                  <path
+                    fill="#28A48F"
+                    d="M43.982 24.001a2.222 2.222 0 0 1-2.222 2.222H15.093a2.222 2.222 0 1 1 0-4.444H41.76c1.227 0 2.222.995 2.222 2.222z"
+                    data-color="1"
+                  ></path>
+                  <path
+                    fill="#28A48F"
+                    d="M8.425 36.445a2.222 2.222 0 1 1-4.444 0 2.222 2.222 0 0 1 4.444 0z"
+                    data-color="1"
+                  ></path>
+                  <path
+                    fill="#28A48F"
+                    d="M43.982 36.445a2.222 2.222 0 0 1-2.222 2.222H15.093a2.222 2.222 0 1 1 0-4.444H41.76c1.227 0 2.222.995 2.222 2.222z"
+                    data-color="1"
+                  ></path>
+                </g>
+                <defs fill="none">
+                  <clipPath
+                    id="b9671940-aadd-4d1a-8f41-11755ee96c85_comp-lwsyaezx"
+                  >
+                    <path fill="#ffffff" d="M48 0v48H0V0h48z"></path>
+                  </clipPath>
+                </defs>
+              </g>
+            </svg>
+            <h5 class="icon-name">Lists</h5>
+          </div>
+          <div class="col-md-2 col-sm-4 icon-group">
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              data-bbox="6.988 7 34 34.002"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+              height="48"
+              width="48"
+              data-type="ugc"
+              role="presentation"
+              aria-hidden="true"
+              aria-label=""
+            >
+              <g>
+                <path
+                  stroke-linejoin="round"
+                  stroke-width="3.2"
+                  stroke="#28A48F"
+                  d="M40.988 13.377v23.375a4.25 4.25 0 0 1-4.25 4.25h-25.5a4.25 4.25 0 0 1-4.25-4.25V13.377a4.25 4.25 0 0 1 4.25-4.25h25.5a4.25 4.25 0 0 1 4.25 4.25z"
+                  fill="none"
+                ></path>
+                <path
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="3.2"
+                  stroke="#28A48F"
+                  d="M15.488 19.752h18.063"
+                  fill="none"
+                ></path>
+                <path
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="3.2"
+                  stroke="#28A48F"
+                  d="M15.488 26.127h18.063"
+                  fill="none"
+                ></path>
+                <path
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="3.2"
+                  stroke="#28A48F"
+                  d="M15.488 32.502h18.063"
+                  fill="none"
+                ></path>
+                <path
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="3.2"
+                  stroke="#28A48F"
+                  d="M15.496 7v5.313"
+                  fill="none"
+                ></path>
+                <path
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="3.2"
+                  stroke="#28A48F"
+                  d="M21.652 7v5.313"
+                  fill="none"
+                ></path>
+                <path
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="3.2"
+                  stroke="#28A48F"
+                  d="M27.352 7v5.313"
+                  fill="none"
+                ></path>
+                <path
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                  stroke-width="3.2"
+                  stroke="#28A48F"
+                  d="M33.023 7v5.313"
+                  fill="none"
+                ></path>
+              </g>
+            </svg>
+            <h5 class="icon-name">Notes</h5>
+          </div>
+          <div class="col-md-2 col-sm-4 icon-group">
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              data-bbox="8.352 5.236 31.272 37.527"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="8.352 5.236 31.272 37.527"
+              height="48"
+              width="42"
+              data-type="color"
+              role="presentation"
+              aria-hidden="true"
+              aria-label=""
+            >
+              <g>
+                <path
+                  fill="#28A48F"
+                  d="M36.497 5.236H13.043a4.697 4.697 0 0 0-4.691 4.691v28.146a4.697 4.697 0 0 0 4.69 4.69h26.582v-34.4a3.13 3.13 0 0 0-3.127-3.127ZM13.043 8.364h1.563v25.018h-1.563a4.65 4.65 0 0 0-1.564.269V9.927c0-.863.702-1.563 1.564-1.563Zm0 31.272c-.862 0-1.564-.7-1.564-1.563s.702-1.564 1.564-1.564h23.454v3.127H13.043Zm23.454-17.2h-4.69a1.564 1.564 0 0 1 0-3.127h4.69v3.127Zm-4.69-6.254a4.697 4.697 0 0 0-4.692 4.69 4.697 4.697 0 0 0 4.691 4.692h4.691v7.818H17.733V8.364h18.764v7.818h-4.69Z"
+                  data-color="1"
+                ></path>
+              </g>
+            </svg>
+            <h5 class="icon-name">Journals</h5>
+          </div>
+          <div class="col-md-2 col-sm-4 icon-group">
+            <svg
+              preserveAspectRatio="xMidYMid meet"
+              data-bbox="10 8 30 32.001"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="10 8 30 32.001"
+              height="48"
+              width="40"
+              data-type="color"
+              role="presentation"
+              aria-hidden="true"
+              aria-label=""
+            >
+              <g>
+                <path
+                  fill="#28A48F"
+                  d="M37 40a2.888 2.888 0 0 1-2.124-.876A2.888 2.888 0 0 1 34 37V11c0-.833.292-1.541.876-2.124A2.888 2.888 0 0 1 37 8a2.89 2.89 0 0 1 2.124.876c.584.583.876 1.29.876 2.124v26a2.89 2.89 0 0 1-.876 2.124A2.888 2.888 0 0 1 37 40Zm-24 0a2.996 2.996 0 0 1-2.124-.876A2.996 2.996 0 0 1 10 37v-6c0-.833.292-1.541.876-2.124A2.888 2.888 0 0 1 13 28a2.89 2.89 0 0 1 2.124.876c.584.583.876 1.29.876 2.124v6c0 .4-.075.783-.224 1.15-.15.367-.368.691-.652.974A2.996 2.996 0 0 1 13 40Zm12 0a2.888 2.888 0 0 1-2.124-.876A2.888 2.888 0 0 1 22 37V21c0-.833.292-1.541.876-2.124A2.888 2.888 0 0 1 25 18a2.89 2.89 0 0 1 2.124.876c.584.583.876 1.29.876 2.124v16a2.89 2.89 0 0 1-.876 2.124A2.888 2.888 0 0 1 25 40Z"
+                  data-color="1"
+                ></path>
+              </g>
+            </svg>
+            <h5 class="icon-name">Insights</h5>
+          </div>
         </div>
       </div>
       <div class="container features-slider px-5">
@@ -707,7 +709,7 @@
                   preserveAspectRatio="xMidYMid meet"
                   data-bbox="25.719 18.047 44.559 57.927"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="25.719 18.047 44.559 57.927"
+                  viewBox="0 0 96 96"
                   height="96"
                   width="96"
                   data-type="color"
@@ -889,16 +891,18 @@
           </div>
         </div>
       </div>
-      <div class="row philosophy-section">
-        <h1 class="fs-1 fw-bold">Our Philosophy</h1>
-        <div class="hexagon">
-          <p><strong>S</strong>imple</p>
-        </div>
-        <div class="hexagon">
-          <p><strong>I</strong>ntuitive</p>
-        </div>
-        <div class="hexagon">
-          <p><strong>M</strong>inimal</p>
+      <div class="philosophy-section">
+        <div class="row philosophy-row">
+          <h1 class="fs-1 fw-bold">Our Philosophy</h1>
+          <div class="hexagon">
+            <p><strong>S</strong>imple</p>
+          </div>
+          <div class="hexagon">
+            <p><strong>I</strong>ntuitive</p>
+          </div>
+          <div class="hexagon">
+            <p><strong>M</strong>inimal</p>
+          </div>
         </div>
       </div>
       <div class="container additional-features-section">
@@ -974,186 +978,184 @@
       </div>
       <div class="customer-first-section">
         <h2 class="Customer-header">Customer First</h2>
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <div class="feature-icon">
-              <svg preserveAspectRatio="xMidYMid meet" data-bbox="5.176 7.855 64.75 57.947" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" height="75" width="75" data-type="ugc" role="presentation" aria-hidden="true" aria-label="">
-                <g>
-                    <path stroke-linejoin="round" stroke-width="4" stroke="#28A48F" d="M69.926 30.7a5.302 5.302 0 0 0-5.302-5.302H34.578a5.302 5.302 0 0 0-5.302 5.303v19.636a5.302 5.302 0 0 0 5.302 5.302h8.837l16.348 10.163V55.64h4.86a5.302 5.302 0 0 0 5.303-5.302V30.701Z" fill="none"></path>
-                    <path fill="#28A48F" d="M12.478 7.855a7.302 7.302 0 0 0-7.302 7.303v20.585a7.302 7.302 0 0 0 7.302 7.302h2.86v8.163a2 2 0 0 0 3.056 1.698l9.641-5.993v-4.71l-8.697 5.407v-6.565a2 2 0 0 0-2-2h-4.86a3.302 3.302 0 0 1-3.302-3.302V15.158a3.302 3.302 0 0 1 3.302-3.303h30.045a3.302 3.302 0 0 1 3.303 3.303v8.735h4v-8.735a7.302 7.302 0 0 0-7.303-7.303H12.478Z" clip-rule="evenodd" fill-rule="evenodd"></path>
-                    <path fill="#28A48F" d="M42.946 41.436a2.846 2.846 0 1 1-5.692 0 2.846 2.846 0 0 1 5.692 0z"></path>
-                    <path fill="#28A48F" d="M52.438 41.436a2.846 2.846 0 1 1-5.692 0 2.846 2.846 0 0 1 5.692 0z"></path>
-                    <path fill="#28A48F" d="M61.915 41.436a2.846 2.846 0 1 1-5.692 0 2.846 2.846 0 0 1 5.692 0z"></path>
-                </g>
-            </svg>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <div class="feature-icon">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="5.176 7.855 64.75 57.947" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" height="75" width="75" data-type="ugc" role="presentation" aria-hidden="true" aria-label="">
+                  <g>
+                      <path stroke-linejoin="round" stroke-width="4" stroke="#28A48F" d="M69.926 30.7a5.302 5.302 0 0 0-5.302-5.302H34.578a5.302 5.302 0 0 0-5.302 5.303v19.636a5.302 5.302 0 0 0 5.302 5.302h8.837l16.348 10.163V55.64h4.86a5.302 5.302 0 0 0 5.303-5.302V30.701Z" fill="none"></path>
+                      <path fill="#28A48F" d="M12.478 7.855a7.302 7.302 0 0 0-7.302 7.303v20.585a7.302 7.302 0 0 0 7.302 7.302h2.86v8.163a2 2 0 0 0 3.056 1.698l9.641-5.993v-4.71l-8.697 5.407v-6.565a2 2 0 0 0-2-2h-4.86a3.302 3.302 0 0 1-3.302-3.302V15.158a3.302 3.302 0 0 1 3.302-3.303h30.045a3.302 3.302 0 0 1 3.303 3.303v8.735h4v-8.735a7.302 7.302 0 0 0-7.303-7.303H12.478Z" clip-rule="evenodd" fill-rule="evenodd"></path>
+                      <path fill="#28A48F" d="M42.946 41.436a2.846 2.846 0 1 1-5.692 0 2.846 2.846 0 0 1 5.692 0z"></path>
+                      <path fill="#28A48F" d="M52.438 41.436a2.846 2.846 0 1 1-5.692 0 2.846 2.846 0 0 1 5.692 0z"></path>
+                      <path fill="#28A48F" d="M61.915 41.436a2.846 2.846 0 1 1-5.692 0 2.846 2.846 0 0 1 5.692 0z"></path>
+                  </g>
+              </svg>
+              </div>
+              <div class="feature-title">
+                In-app Customer Support
+              </div>
             </div>
-            <div class="feature-title">
-              In-app Customer Support
+            <div class="col-md-4 text-center">
+              <div class="feature-icon">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="9.812 10.655 54.39 51.382" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 75" height="75" width="74" data-type="ugc" role="presentation" aria-hidden="true" aria-label="">
+                  <g>
+                      <path stroke-linejoin="round" stroke-width="4" stroke="#28A48F" d="M32.837 13.152 10.38 55.072c-1.689 3.152.595 6.965 4.17 6.965h44.914c3.576 0 5.86-3.813 4.17-6.965l-22.456-41.92c-1.784-3.33-6.557-3.33-8.341 0Z" fill="none"></path>
+                      <path fill="#28A48F" d="M39.856 50.209a2.846 2.846 0 1 1-5.692 0 2.846 2.846 0 0 1 5.692 0z"></path>
+                      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="4" stroke="#28A48F" d="M37.055 28.643v12.324" fill="none"></path>
+                  </g>
+              </svg>
+              </div>
+              <div class="feature-title">
+                In-app Issue Reporting
+              </div>
             </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="feature-icon">
-              <svg preserveAspectRatio="xMidYMid meet" data-bbox="9.812 10.655 54.39 51.382" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 75" height="75" width="74" data-type="ugc" role="presentation" aria-hidden="true" aria-label="">
-                <g>
-                    <path stroke-linejoin="round" stroke-width="4" stroke="#28A48F" d="M32.837 13.152 10.38 55.072c-1.689 3.152.595 6.965 4.17 6.965h44.914c3.576 0 5.86-3.813 4.17-6.965l-22.456-41.92c-1.784-3.33-6.557-3.33-8.341 0Z" fill="none"></path>
-                    <path fill="#28A48F" d="M39.856 50.209a2.846 2.846 0 1 1-5.692 0 2.846 2.846 0 0 1 5.692 0z"></path>
-                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="4" stroke="#28A48F" d="M37.055 28.643v12.324" fill="none"></path>
-                </g>
-            </svg>
-            </div>
-            <div class="feature-title">
-              In-app Issue Reporting
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="feature-icon">
-              <svg preserveAspectRatio="xMidYMid meet" data-bbox="10.031 9.428 55.026 55.025" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" height="75" width="75" data-type="ugc" role="presentation" aria-hidden="true" aria-label="">
-                <g>
-                    <path stroke-width="4" stroke="#28A48F" d="M19.536 16.14c-5.822 5.044-9.505 12.492-9.505 20.8 0 15.196 12.318 27.513 27.513 27.513 8.308 0 15.756-3.682 20.801-9.504m-38.81-38.81a27.406 27.406 0 0 1 18.01-6.711c15.194 0 27.512 12.318 27.512 27.513 0 6.886-2.53 13.182-6.712 18.008m-38.81-38.81 38.81 38.81" fill="none"></path>
-                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="4" stroke="#28A48F" d="m19.96 47.285 2.544-6.404m13.278 6.404-2.445-6.404m-10.833 0 5.367-14.315 5.466 14.315m-10.833 0h10.833" fill="none"></path>
-                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="4" stroke="#28A48F" d="M45.94 27.469h-5.198v19.965h5.199a8.74 8.74 0 0 0 8.739-8.74v-2.486a8.74 8.74 0 0 0-8.74-8.74Z" fill="none"></path>
-                </g>
-            </svg>
-            </div>
-            <div class="feature-title">
-              No Ads
+            <div class="col-md-4 text-center">
+              <div class="feature-icon">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="10.031 9.428 55.026 55.025" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" height="75" width="75" data-type="ugc" role="presentation" aria-hidden="true" aria-label="">
+                  <g>
+                      <path stroke-width="4" stroke="#28A48F" d="M19.536 16.14c-5.822 5.044-9.505 12.492-9.505 20.8 0 15.196 12.318 27.513 27.513 27.513 8.308 0 15.756-3.682 20.801-9.504m-38.81-38.81a27.406 27.406 0 0 1 18.01-6.711c15.194 0 27.512 12.318 27.512 27.513 0 6.886-2.53 13.182-6.712 18.008m-38.81-38.81 38.81 38.81" fill="none"></path>
+                      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="4" stroke="#28A48F" d="m19.96 47.285 2.544-6.404m13.278 6.404-2.445-6.404m-10.833 0 5.367-14.315 5.466 14.315m-10.833 0h10.833" fill="none"></path>
+                      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="4" stroke="#28A48F" d="M45.94 27.469h-5.198v19.965h5.199a8.74 8.74 0 0 0 8.739-8.74v-2.486a8.74 8.74 0 0 0-8.74-8.74Z" fill="none"></path>
+                  </g>
+              </svg>
+              </div>
+              <div class="feature-title">
+                No Ads
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="pricing section" id="pricing">
-    <div class="container">
-      <h1 class="Pricing-header text-center my-5">Our Pricing</h1>
-      <div class="table-responsive">
-          <table class="table table-bordered pricing-table">
-              <thead>
-                  <tr>
-                      <th>Features</th>
-                      <th>Basic</th>
-                      <th>Pro</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td>Unlimited Todos</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Unlimited Habits</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Unlimited Notes</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Unlimited Journals</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Unlimited Lists</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Mewole PIN</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Customized Theme</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Detailed Insights</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Customized Views</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Multiple Reminders</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Supports Multiple Platforms</td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>No Advertisements</td>
-                      <td><span class="feature-cross">&#10008;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Collaborative Lists</td>
-                      <td><span class="feature-cross">&#10008;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Cloud Backup</td>
-                      <td><span class="feature-cross">&#10008;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Upload Images</td>
-                      <td><span class="feature-cross">&#10008;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>1 GB Media Storage</td>
-                      <td><span class="feature-cross">&#10008;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Realtime sync across Devices</td>
-                      <td><span class="feature-cross">&#10008;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>End-to-end encryption</td>
-                      <td><span class="feature-cross">&#10008;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr>
-                      <td>Prioritized In-app Support</td>
-                      <td><span class="feature-cross">&#10008;</span></td>
-                      <td><span class="feature-check">&#10004;</span></td>
-                  </tr>
-                  <tr class="table-footer">
-                      <td><strong>Price</strong></td>
-                      <td><strong>$0</strong><br><strong>Always Free</strong></td>
-                      <td><strong>$3.99</strong><br><strong>Per Month</strong></td>
-                  </tr>
-              </tbody>
+    <div class="pricing section" id="pricing">
+      <div class="container">
+        <h1 class="Pricing-header text-center my-5">Our Pricing</h1>
+        <div class="table-responsive">
+            <table class="pricing-table">
+              <tr>
+                <th>Features</th>
+                <th>Basic</th>
+                <th>Pro</th>  
+              </tr>
+              <tr>
+                <td>Unlimited Todos</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Unlimited Habits</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Unlimited Notes</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Unlimited Journals</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Unlimited Lists</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Mewole PIN</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Customized Theme</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Detailed Insights</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Customized Views</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Multiple Reminders</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Supports Multiple Platforms</td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>No Advertisements</td>
+                <td><i class="fa fa-xmark"></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Collaborative Lists</td>
+                <td><i class="fa fa-xmark"></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Cloud Backup</td>
+                <td><i class="fa fa-xmark"></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Upload Images</td>
+                <td><i class="fa fa-xmark"></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>1 GB Media Storage</td>
+                <td><i class="fa fa-xmark"></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Realtime sync across Devices</td>
+                <td><i class="fa fa-xmark"></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>End-to-end encryption</td>
+                <td><i class="fa fa-xmark"></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr>
+                <td>Prioritized In-app Support</td>
+                <td><i class="fa fa-xmark"></td>
+                <td><i class="fa fa-circle-check check-icon"></i></td>
+            </tr>
+            <tr class="table-footer">
+                <td><strong>Price</strong></td>
+                <td><strong>$0</strong><br><strong>Always Free</strong></td>
+                <td><strong>$3.99</strong><br><strong>Per Month</strong></td>
+            </tr>
           </table>
-      </div>
-  </div>
-  </div>
-  <div class="contact-section" id="contact">
-    <div class="contect-container">
-      <div class="contact-form text-center">
-          <h1>Get in touch</h1>
-          <p class="fs-5">We are here for you! How can we help?</p>
-          <form>
-              <input type="text" class="form-control" placeholder="Your name">
-              <input type="email" class="form-control" placeholder="Your email">
-              <textarea class="form-control" rows="4" placeholder="How can we help?"></textarea>
-              <button type="submit" class="Submit-button btn btn-primary mt-3 sbm-btn">Send</button>
-          </form>
-      </div>
-  </div>
+          
+        </div>
+    </div>
+    </div>
+    <div class="contact-section" id="contact">
+      <div class="contect-container">
+        <div class="contact-form text-center">
+            <h1>Get in touch</h1>
+            <p class="fs-5">We are here for you! How can we help?</p>
+            <form>
+                <input type="text" class="form-control" placeholder="Your name">
+                <input type="email" class="form-control" placeholder="Your email">
+                <textarea class="form-control" rows="4" placeholder="How can we help?"></textarea>
+                <button type="submit" class="Submit-button btn btn-primary mt-3 sbm-btn">Send</button>
+            </form>
+        </div>
+    </div>
     <div class="footer section" id="footer">
       <footer class="footer text-center">
         <div class="container">
@@ -1162,11 +1164,13 @@
                     <span class="fs-1"><strong>Me</strong>volve</span>
                     <p class="mb-4">evolve daily</p>
                     <div class="footer-links mb-4">
-                        <a href="#home">Home</a>
-                        <a href="#features">Features</a>
-                        <a href="#pricing">Pricing</a>
-                        <a href="#blog">Blog</a>
-                        <a href="#contact">Contact Us</a>
+                      <ul class="footer-items">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                      </ul>
                     </div>
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -1185,7 +1189,6 @@
         </div>
     </footer>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
